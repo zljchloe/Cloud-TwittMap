@@ -1,7 +1,7 @@
 package twitter;
 
 import twitter4j.*;
-import twitter4j.conf.ConfigurationBuilder;//??????
+import twitter4j.conf.ConfigurationBuilder;
 
 public class twitterStreaming {
 
@@ -13,10 +13,10 @@ public class twitterStreaming {
 
         ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true)
-                .setOAuthConsumerKey("62G2zLGAKXM25TUyXeGJgNZpY")
-                .setOAuthConsumerSecret("XecKmb0ifHlhO8Y5qn0CKH7tr2orDPuObDDdTOtWX9apFw9qUT")
-                .setOAuthAccessToken("2989290723-lHgusR0oVRtvMam5JTK35noAyjucMcEzdUBzstY")
-                .setOAuthAccessTokenSecret("GTzDl9kAq9Wni1lAOdPJ7HJJC6T2BjonhCVrtqJ3O1e5E");
+                .setOAuthConsumerKey("")
+                .setOAuthConsumerSecret("")
+                .setOAuthAccessToken("")
+                .setOAuthAccessTokenSecret("");
 
         TwitterStream twitterStream = new TwitterStreamFactory(cb.build()).getInstance();
 
